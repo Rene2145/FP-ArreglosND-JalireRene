@@ -3,7 +3,7 @@
 #include <ctime>
 using namespace std;
 int main() {
-	cout << "Ejercicio 11:  Simulación de Propagación de Fuego en una Matriz(10x10)\n";
+	cout << "Ejercicio 11: Simulacion de Propagación de Fuego en una Matriz(10x10)\n";
     srand(time(0));
     int m1[10][10];
     int m2[10][10];
@@ -41,8 +41,11 @@ int main() {
             }
         }
         }
-    cout << "\nBosque inicial:\t\t\t\tBosque despues de la propagacion del fuego:\n";
+    cout <<"\n1) Bosques Generados:"<<endl;
+    cout <<"\n\t  -- Despues de la propagacion del fuego -->\n";
+    cout <<"\n\tInicial:\t\t\t\tFinal:\n\n";
     for (int i=0; i< 10; i++) {
+    	cout << "   ";
     	for (int j=0; j<10; j++) {
         cout << m1[i][j] <<" ";
         }
