@@ -6,7 +6,7 @@ int main() {
     int r1[4][4];
 
 	cout << "Ingresa los datos de la matriz:\n\n";
-	cout << "1) Matriz A" << endl;
+	cout << "1) Matriz\n" << endl;
 	for(int i=0;i<4;i++){
 		for(int j=0;j<4;j++){
 			cout <<"  [" << i << "][" << j << "] = ";
@@ -20,7 +20,7 @@ int main() {
         }
     }
 
-    cout<<"\nResultado:\n\n";
+    cout<<"\n2) Resultado:\n\n";
 	cout<<"   Matriz: \t\t Matriz rotada 90 grados en sentido horario:\n";
 	
 	for(int i=0;i<4;i++){
