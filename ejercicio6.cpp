@@ -29,9 +29,8 @@ int main() {
         }
     }
 
-	
     cout<<"\nResultado:\n\n";
-	cout<<"    Matriz A\t\t  Matriz A'\n";
+	cout<<"  	Matriz A\t\tMatriz A reflejada\n";
 	
 	for(int i=0;i<6;i++){
 		cout << "  ";
