@@ -8,10 +8,10 @@ int main(){
 	cout<<"  ";
 	cin>>N;
 	
-   for (int j=0; j<N; j++) {
-        m1[0][j] = j+1;
-    }
-    
+		for (int j=0; j<N; j++) {
+	        m1[0][j]=j+1;
+	    }
+	
    for (int i=1; i<N; i++) {
         for (int j=0; j<N; j++) {
             m1[i][j]=m1[i-1][(j+N-1)%N];  
