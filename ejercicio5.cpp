@@ -40,12 +40,12 @@ int main(){
 		}
 		cout<<endl;
 	}
-	cout<<"Resultado:\n\n";
+	cout<<"\nResultado:\n";
     cout<<"  \na) Valor maximo: " << vMax;
-	cout<<"\n  i)  Fila:" << fMax;
-	cout<<"\n ii)  Columna: " << cMax << endl;
+	cout<<"\n  i) Fila:" << fMax;
+	cout<<"\n ii) Columna: " << cMax << endl;
     cout<<"  \nb) Valor minimo: " << vMin;
     cout<<"\n  i) Fila: " << fMin;
-	cout<<"\n  ii) Columna: " << cMin << endl;
+	cout<<"\n ii) Columna: " << cMin << endl;
 	return 0;
 }
