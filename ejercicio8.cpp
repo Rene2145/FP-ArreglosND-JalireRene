@@ -1,9 +1,9 @@
 #include <iostream>
 using namespace std;
 int main(){
-	cout << "Ejercicio 8: Espiral de m1 de una Matriz(5x5)\n\n";
+	cout << "Ejercicio 8: Espiral de una Matriz(5x5)\n\n";
 	int m1[5][5];
-    int f0 = 0, f4 = 4, c0 = 0, c4 = 4;
+    int f0=0, f4=4, c0=0, c4=4;
 
 	cout << "1) Ingresa los datos de la matriz:\n\n";
 	for(int i=0;i<5;i++){
